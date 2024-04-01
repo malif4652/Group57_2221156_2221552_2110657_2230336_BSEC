@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Java%20Projects/BSEC/src/mainpkg/MainAppFxmlMainScene.fxml</file>
-            <file>file:/E:/Java%20Projects/BSEC/src/investorpkgAlif/InvestorFxmlManagePortfolioScene.fxml</file>
-            <file>file:/E:/Java%20Projects/BSEC/src/mainpkg/User.java</file>
-            <file>file:/E:/Java%20Projects/BSEC/src/investorpkgAlif/InvestorFxmlManagePortfolioSceneController.java</file>
-            <file>file:/E:/Java%20Projects/BSEC/src/investorpkgAlif/InvestorFxmlMainSceneController.java</file>
-            <file>file:/E:/Java%20Projects/BSEC/src/mainpkg/MainAppClass.java</file>
-            <file>file:/E:/Java%20Projects/BSEC/src/investorpkgAlif/InvestorFxmlMainScene.fxml</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystDashboardScene.fxml</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/StockBrokerDashboardSceneController.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/investorpkgAlif/InvestorFxmlManagePortfolioSceneController.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/StockBrokerDashboardScene.fxml</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystDashboardSceneController.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/investorpkgAlif/InvestorFxmlMainSceneController.java</file>
         </group>
     </open-files>
 </project-private>

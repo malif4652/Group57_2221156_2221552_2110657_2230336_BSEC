@@ -18,7 +18,7 @@
                   <Font name="Arial Bold" size="18.0" />
                </font>
             </Label>
-            <TextField layoutX="104.0" layoutY="136.0" prefHeight="28.0" prefWidth="158.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
+            <TextField fx:id="loginUserIdTextField" layoutX="104.0" layoutY="136.0" prefHeight="28.0" prefWidth="158.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
             <Label layoutX="34.0" layoutY="142.0" text="User ID:">
                <font>
                   <Font name="Arial" size="12.0" />
@@ -29,8 +29,8 @@
                   <Font name="Arial" size="12.0" />
                </font>
             </Label>
-            <PasswordField layoutX="103.0" layoutY="187.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
-            <Button layoutX="108.0" layoutY="268.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="86.0" style="-fx-background-color: black; -fx-border-radius: 0;" text="Login" textFill="WHITE">
+            <PasswordField fx:id="loginPasswordPasswordField" layoutX="103.0" layoutY="187.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
+            <Button layoutX="108.0" layoutY="269.0" mnemonicParsing="false" onAction="#loginButtonOnClick" prefHeight="40.0" prefWidth="86.0" style="-fx-background-color: black; -fx-border-radius: 0;" text="Login" textFill="WHITE">
                <font>
                   <Font name="Arial" size="14.0" />
                </font>
@@ -46,7 +46,7 @@
                   <Font name="Arial Bold" size="18.0" />
                </font>
             </Label>
-            <TextField layoutX="107.0" layoutY="136.0" prefHeight="28.0" prefWidth="158.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
+            <TextField fx:id="signupUserIdTextField" layoutX="107.0" layoutY="136.0" prefHeight="28.0" prefWidth="158.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
             <Label layoutX="37.0" layoutY="142.0" text="User ID:" textFill="WHITE">
                <font>
                   <Font name="Arial" size="12.0" />
@@ -57,8 +57,8 @@
                   <Font name="Arial" size="12.0" />
                </font>
             </Label>
-            <PasswordField layoutX="106.0" layoutY="187.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
-            <Button layoutX="119.0" layoutY="271.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-radius: 0;" text="Sign up">
+            <PasswordField fx:id="signupPasswordPasswordField" layoutX="106.0" layoutY="187.0" prefHeight="28.0" prefWidth="159.0" style="-fx-border-color: black; -fx-border-radius: 0;" />
+            <Button layoutX="119.0" layoutY="271.0" mnemonicParsing="false" onAction="#signupButtonOnClick" prefHeight="39.0" prefWidth="86.0" style="-fx-background-color: white; -fx-border-radius: 0;" text="Sign up">
                <font>
                   <Font name="Arial" size="14.0" />
                </font>
