@@ -8,14 +8,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="538.0" style="-fx-background-color: Grey;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="marketAnalystIfsiapkg.MarketAnalystDashboardSceneController">
+<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="marketAnalystIfsiapkg.MarketAnalystDashboardSceneController">
    <children>
-      <Button layoutX="22.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: Pink;" text="Investor List" />
-      <Button layoutX="432.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: pink;" text="Market Data" />
-      <Button layoutX="219.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: pink;" text="Generate Transaction " wrapText="true" />
-      <Button layoutX="68.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: pink;" text="Market Analyst Report" wrapText="true" />
-      <Button layoutX="342.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: pink;" text="Company List" />
-        <BottomNavigationButton layoutX="128.0" layoutY="477.0" prefHeight="66.0" prefWidth="182.0" style="-fx-background-color: Pink;" text="Risk Analysis Report" />
+      <Button layoutX="22.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Investor List" />
+      <Button layoutX="432.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Market Data" />
+      <Button layoutX="219.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Generate Transaction " wrapText="true" />
+      <Button layoutX="68.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: grey;" text="Market Analyst Report" wrapText="true" />
+      <Button layoutX="342.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: grey;" text="Company List" />
+        <BottomNavigationButton layoutX="128.0" layoutY="477.0" prefHeight="66.0" prefWidth="182.0" style="-fx-background-color: grey;" text="Risk Analysis Report" />
       <Text layoutX="148.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 24;" styleClass="Roboto" text="Market   Analyst   Dashboard" />
       <TableView layoutX="29.0" layoutY="78.0" prefHeight="200.0" prefWidth="481.0">
         <columns>
@@ -25,11 +25,11 @@
             <TableColumn prefWidth="202.0" text="Market Indices" />
         </columns>
       </TableView>
-        <BottomNavigationButton layoutX="319.0" layoutY="477.0" prefHeight="66.0" prefWidth="103.0" selected="true" style="-fx-background-color: pink;" text="Help">
+        <BottomNavigationButton layoutX="319.0" layoutY="477.0" prefHeight="66.0" prefWidth="103.0" selected="true" style="-fx-background-color: grey;" text="Help">
             <graphic>
                 <Icon content="RECENT_ACTORS" />
             </graphic>
         </BottomNavigationButton>
-        <BottomNavigationButton layoutX="430.0" layoutY="477.0" prefHeight="66.0" prefWidth="109.0" style="-fx-background-color: pink;" text="Log out" />
+        <BottomNavigationButton layoutX="430.0" layoutY="477.0" prefHeight="66.0" prefWidth="109.0" style="-fx-background-color: grey;" text="Log out" />
    </children>
 </AnchorPane>
