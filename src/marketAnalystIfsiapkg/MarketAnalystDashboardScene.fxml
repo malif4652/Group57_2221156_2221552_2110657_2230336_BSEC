@@ -17,10 +17,10 @@
       <Button layoutX="342.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: grey;" text="Company List" />
         <BottomNavigationButton layoutX="128.0" layoutY="477.0" prefHeight="66.0" prefWidth="182.0" style="-fx-background-color: grey;" text="Risk Analysis Report" />
       <Text layoutX="148.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 24;" styleClass="Roboto" text="Market   Analyst   Dashboard" />
-      <TableView layoutX="29.0" layoutY="78.0" prefHeight="200.0" prefWidth="481.0">
+      <TableView fx:id="majorComboBoxMarketAnalyst" layoutX="29.0" layoutY="78.0" prefHeight="200.0" prefWidth="481.0">
         <columns>
-          <TableColumn prefWidth="113.0" text="Stock ID" />
-          <TableColumn prefWidth="127.0" text="Stock Prices" />
+          <TableColumn fx:id="StockIDColumn" prefWidth="113.0" text="Stock ID" />
+          <TableColumn fx:id="StockPriceColumn" prefWidth="127.0" text="Stock Prices" />
             <TableColumn prefWidth="120.0" text="Volume" />
             <TableColumn prefWidth="202.0" text="Market Indices" />
         </columns>

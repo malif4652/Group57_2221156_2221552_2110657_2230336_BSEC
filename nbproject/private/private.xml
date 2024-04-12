@@ -3,12 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystDashboardScene.fxml</file>
-            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/StockBrokerDashboardSceneController.java</file>
-            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/investorpkgAlif/InvestorFxmlManagePortfolioSceneController.java</file>
-            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/StockBrokerDashboardScene.fxml</file>
-            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystDashboardSceneController.java</file>
-            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/investorpkgAlif/InvestorFxmlMainSceneController.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/Investment.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/TaxReport.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Order.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReport.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/RiskAnalysisReport.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Transaction.java</file>
         </group>
     </open-files>
 </project-private>
