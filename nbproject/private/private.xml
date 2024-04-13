@@ -5,10 +5,18 @@
         <group>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/Investment.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/TaxReport.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReportScene.fxml</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/RiskAnalysisReportSceneController.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/RiskAnalysisReportScene.fxml</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReportSceneController.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Stock.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Salaray%20Scene.fxml</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Order.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReport.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/RiskAnalysisReport.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Transaction.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/OrderStockSceneController.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystDashboardSceneController.java</file>
         </group>
     </open-files>
 </project-private>
