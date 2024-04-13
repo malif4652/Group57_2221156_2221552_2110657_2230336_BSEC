@@ -2,9 +2,11 @@
 
 <?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
 <?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
@@ -12,24 +14,25 @@
    <children>
       <Button layoutX="22.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Investor List" />
       <Button layoutX="432.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Market Data" />
-      <Button layoutX="219.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Generate Transaction " wrapText="true" />
+      <Button layoutX="219.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Analyze Market Data " wrapText="true" />
       <Button layoutX="68.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: grey;" text="Market Analyst Report" wrapText="true" />
       <Button layoutX="342.0" layoutY="395.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: grey;" text="Company List" />
         <BottomNavigationButton layoutX="128.0" layoutY="477.0" prefHeight="66.0" prefWidth="182.0" style="-fx-background-color: grey;" text="Risk Analysis Report" />
       <Text layoutX="148.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 24;" styleClass="Roboto" text="Market   Analyst   Dashboard" />
-      <TableView fx:id="majorComboBoxMarketAnalyst" layoutX="29.0" layoutY="78.0" prefHeight="200.0" prefWidth="481.0">
-        <columns>
-          <TableColumn fx:id="StockIDColumn" prefWidth="113.0" text="Stock ID" />
-          <TableColumn fx:id="StockPriceColumn" prefWidth="127.0" text="Stock Prices" />
-            <TableColumn prefWidth="120.0" text="Volume" />
-            <TableColumn prefWidth="202.0" text="Market Indices" />
-        </columns>
-      </TableView>
         <BottomNavigationButton layoutX="319.0" layoutY="477.0" prefHeight="66.0" prefWidth="103.0" selected="true" style="-fx-background-color: grey;" text="Help">
             <graphic>
                 <Icon content="RECENT_ACTORS" />
             </graphic>
         </BottomNavigationButton>
         <BottomNavigationButton layoutX="430.0" layoutY="477.0" prefHeight="66.0" prefWidth="109.0" style="-fx-background-color: grey;" text="Log out" />
+      <LineChart layoutX="250.0" layoutY="50.0" prefHeight="266.0" prefWidth="271.0" title="Market Line Chart">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <PieChart layoutX="21.0" layoutY="61.0" prefHeight="243.0" prefWidth="172.0" title="Market Pie chart" />
    </children>
 </AnchorPane>

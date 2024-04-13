@@ -1,8 +1,8 @@
 
 package stockBrokerIfsiapkg;
 
-//import java.util.ArrayList;
-//import java.util.List;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Stock {
     private String stockId;
@@ -22,10 +22,7 @@ public class Stock {
     public String toString() {
         return "Stock{" + "stockId=" + stockId + ", quantity=" + quantity + ", newPrice=" + newPrice + ", oldPrice=" + oldPrice + '}';
     }
-
-  
-
-/*public class DummyStockInput {
+    
     public static void main(String[] args) {
         // Dummy data input
         List<Stock> stockList = new ArrayList<>();
@@ -42,7 +39,8 @@ public class Stock {
         for (Stock stock : stockList) {
             System.out.println(stock);
         }
-    }*/
+
+    }
 
     public String getStockId() {
         return stockId;

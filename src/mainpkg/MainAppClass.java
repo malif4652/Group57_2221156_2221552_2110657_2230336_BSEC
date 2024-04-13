@@ -18,7 +18,7 @@ public class MainAppClass extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("CustomerSegment.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("MainAppFxmlMainScene.fxml"));
         
         Scene scene = new Scene(root);
         
@@ -26,9 +26,7 @@ public class MainAppClass extends Application {
         stage.show();
     }
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         launch(args);
     }
