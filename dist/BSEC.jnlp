@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="BSEC.jar" size="14708" download="eager" />
+    <jar href="BSEC.jar" size="18199" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.MainAppClass"  name="BSEC" />
   <update check="always"/>
