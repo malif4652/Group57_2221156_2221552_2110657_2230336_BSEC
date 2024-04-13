@@ -30,7 +30,9 @@ public class CustomerSergmentController implements Initializable {
 
     @Override
     public String toString() {
-        return "FXMLController{" + "customerNameLabel=" + customerNameLabel + ", customerStockQuantityLabel=" + customerStockQuantityLabel + ", customerTypeLabel=" + customerTypeLabel + ", recordedCustomerInfoTextField=" + recordedCustomerInfoTextField + '}';
+        return "FXMLController{" + "customerNameLabel=" + customerNameLabel + ", customerStockQuantityLabel=" +
+                customerStockQuantityLabel + ", customerTypeLabel=" + customerTypeLabel + ", recordedCustomerInfoTextField=" + 
+                recordedCustomerInfoTextField + '}';
     }
 
     public Label getCustomerNameLabel() {
