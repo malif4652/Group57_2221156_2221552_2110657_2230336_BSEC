@@ -12,7 +12,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
-public class CustomerSergmentController implements Initializable {
+public class CustomerSegmentController implements Initializable {
 
     @FXML
     private Label customerNameLabel;
@@ -67,7 +67,7 @@ public class CustomerSergmentController implements Initializable {
         this.recordedCustomerInfoTextField = recordedCustomerInfoTextField;
     }
 
-    public CustomerSergmentController(Label customerNameLabel, Label customerStockQuantityLabel, Label customerTypeLabel, TextField recordedCustomerInfoTextField) {
+    public CustomerSegmentController(Label customerNameLabel, Label customerStockQuantityLabel, Label customerTypeLabel, TextField recordedCustomerInfoTextField) {
         this.customerNameLabel = customerNameLabel;
         this.customerStockQuantityLabel = customerStockQuantityLabel;
         this.customerTypeLabel = customerTypeLabel;
@@ -76,6 +76,11 @@ public class CustomerSergmentController implements Initializable {
 
     @FXML
     private void recordCustomerInfoButtonOnClick(ActionEvent event) {
+       
+        
+        
+        
+        
         
     }
 
@@ -85,7 +90,14 @@ public class CustomerSergmentController implements Initializable {
     }
 
     @FXML
-    private void backToDashboardButtonOnClick(ActionEvent event) {
+    private void backToDashboardButtonOnClick(ActionEvent event) throw IOException {
+        Parent fileChooserviewParent = FXMLLoader.load(getClass().
+                getResource(name"MarketAnalystDashboardScene.fxml");
+        Scene fileChooserViewScene = new Scene(fileChooserViewParent);
+        Stage newWindow = new Stage();
+        
+        newWindow.setScene(MarketAnalystDashboard.fxml);
+        newWindow.show();
     }
     
 }
