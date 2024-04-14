@@ -4,13 +4,20 @@
  */
 package marketAnalystIfsiapkg;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
 
 public class CustomerSegmentController implements Initializable {
 
@@ -89,15 +96,29 @@ public class CustomerSegmentController implements Initializable {
         
     }
 
-    @FXML
-    private void backToDashboardButtonOnClick(ActionEvent event) throw IOException {
-        Parent fileChooserviewParent = FXMLLoader.load(getClass().
-                getResource(name"MarketAnalystDashboardScene.fxml");
+    
+    /*private void backToDashboardButtonOnClick(MouseEvent event) throw IOException {
+        /*Parent fileChooserviewParent = FXMLLoader.load(getClass().
+               getResource(name"MarketAnalystDashboardScene.fxml");
         Scene fileChooserViewScene = new Scene(fileChooserViewParent);
         Stage newWindow = new Stage();
         
         newWindow.setScene(MarketAnalystDashboard.fxml);
         newWindow.show();
-    }
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("EventBudgetApprovalScene.fxml"));
+        rootpane.getChildren().setAll(pane);*/
     
+       
+    /*@FXML
+    private void backToDashboardButtonOnClick(MouseEvent event)throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("LibraryDirectorDashboard.fxml"));
+        rootpane.getChildren().setAll(pane);
+    }*/
+    @FXML
+    private void backToDashboardButtonOnClick(ActionEvent event) throws IOException{
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("MarketAnalystDashboardScene.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        //stage.setScene(scene2);
+        Stage s2 = new Stage(); s2.setScene(scene2);  s2.show();
+    }
 }
