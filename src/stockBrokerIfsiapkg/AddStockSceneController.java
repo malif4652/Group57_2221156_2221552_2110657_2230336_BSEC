@@ -16,12 +16,14 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.scene.control.cell.PropertyValueFactory;
 
-/**
- * FXML Controller class
- *
- * @author HP
- */
+
 public class AddStockSceneController implements Initializable {
 
     @FXML
@@ -35,13 +37,13 @@ public class AddStockSceneController implements Initializable {
     @FXML
     private TableView<String> mainTableView;
     @FXML
-    private TableColumn<Integer, ?> stockIDTableView;
+    private TableColumn<StockList,Integer > stockIDTableView;
     @FXML
-    private TableColumn<?, ?> companyNameTableView;
+    private TableColumn<StockList, String> companyNameTableView;
     @FXML
-    private TableColumn<?, ?> oldPriceTableView;
+    private TableColumn<StockList, Double> oldPriceTableView;
     @FXML
-    private TableColumn<?, ?> newPriceTableView;
+    private TableColumn<StockList, Double> newPriceTableView;
     @FXML
     private Label notificationLabel;
 
@@ -100,7 +102,52 @@ public class AddStockSceneController implements Initializable {
     }
 
     @FXML
-    private void LoadListOfStocksOnClick(ActionEvent event) {
+    private void LoadListOfStocksOnClick() {
+        stockIDTableView.setCellValueFactory(new PropertyValueFactory<StockList,Integer>("StockId"));
+        companyNameTableView.setCellValueFactory(new PropertyValueFactory<StockList,String>("CompanyName"));
+        oldPriceTableView.setCellValueFactory(new PropertyValueFactory<StockList,Double>("OldPrice"));
+        newPriceTableView.setCellValueFactory(new PropertyValueFactory<StockList,Double>("NewPrice"));
+        //mainTableView.setItems(getStockList());
+        
+    
+        
+        
+        
+    }
+    public ArrayList<String> getListData(){
+        ObservableList<StockList> obList = FXCollections.observableArrayList();
+         ArrayList<String> LeaveAPParray = new ArrayList<String>();
+
+        File f = null;
+        Scanner sc;
+        String s1,s2,s3,s4,addStr;
+        String str;
+        String[] tokens;
+        int count =1;
+        try {
+            f = new File("StockList.txt");
+            sc = new Scanner(f);
+            if (f.exists()) {
+
+                while (sc.hasNextLine()) {
+                    str = sc.nextLine();
+                    tokens = str.split("&&");
+                    s1=tokens[0];
+                    s2=tokens[1];
+                    s3=tokens[2];
+                    s4=tokens[4];
+                    
+                }
+                
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Error in getTableViewInfo!!File reading failed!!");
+        }finally {
+            System.out.println(" getTableViewInfo!!File reading done!!");
+            return LeaveAPParray;
+
+        }
+
     }
     
 }

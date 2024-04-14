@@ -20,6 +20,8 @@ public class MainAppClass extends Application {
     public void start(Stage stage) throws Exception {
         //Parent root = FXMLLoader.load(getClass().getResource("MainAppFxmlMainScene.fxml"));
         Parent root = FXMLLoader.load(getClass().getResource("/stockBrokerIfsiapkg/AddStockScene.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("/stockBrokerIfsiapkg/OrderStockScene.fxml"));
+        //Parent root = FXMLLoader.load(getClass().getResource("/stockBrokerIfsiapkg/StockBokerDasboardScene.fxml"));
         
         Scene scene = new Scene(root);
         
