@@ -15,8 +15,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 public class CustomerSegmentController implements Initializable {
@@ -85,10 +83,6 @@ public class CustomerSegmentController implements Initializable {
     private void recordCustomerInfoButtonOnClick(ActionEvent event) {
        
         
-        
-        
-        
-        
     }
 
     @FXML
@@ -96,24 +90,6 @@ public class CustomerSegmentController implements Initializable {
         
     }
 
-    
-    /*private void backToDashboardButtonOnClick(MouseEvent event) throw IOException {
-        /*Parent fileChooserviewParent = FXMLLoader.load(getClass().
-               getResource(name"MarketAnalystDashboardScene.fxml");
-        Scene fileChooserViewScene = new Scene(fileChooserViewParent);
-        Stage newWindow = new Stage();
-        
-        newWindow.setScene(MarketAnalystDashboard.fxml);
-        newWindow.show();
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("EventBudgetApprovalScene.fxml"));
-        rootpane.getChildren().setAll(pane);*/
-    
-       
-    /*@FXML
-    private void backToDashboardButtonOnClick(MouseEvent event)throws IOException {
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("LibraryDirectorDashboard.fxml"));
-        rootpane.getChildren().setAll(pane);
-    }*/
     @FXML
     private void backToDashboardButtonOnClick(ActionEvent event) throws IOException{
         Parent scene2Parent = FXMLLoader.load(getClass().getResource("MarketAnalystDashboardScene.fxml"));

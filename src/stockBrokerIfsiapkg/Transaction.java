@@ -1,8 +1,6 @@
 
 package stockBrokerIfsiapkg;
 
-import java.util.Date;
-
 public class Transaction {
     private String symbol;
     private String type; // Buy or Sell
@@ -10,7 +8,7 @@ public class Transaction {
     private double price;
     
 
-    public Transaction(String symbol, String type, int quantity, double price, Date timestamp) {
+    public Transaction(String symbol, String type, int quantity, double price) {
         this.symbol = symbol;
         this.type = type;
         this.quantity = quantity;
@@ -51,14 +49,6 @@ public class Transaction {
         this.price = price;
     }
 
-    public Date getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(Date timestamp) {
-        this.timestamp = timestamp;
-    }
-
     @Override
     public String toString() {
         return "Transaction{" +
@@ -66,7 +56,6 @@ public class Transaction {
                 ", type='" + type + '\'' +
                 ", quantity=" + quantity +
                 ", price=" + price +
-                ", timestamp=" + timestamp +
                 '}';
     }
 }

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package stockBrokerIfsiapkg;
 import javafx.beans.property.SimpleStringProperty;
 
@@ -14,7 +11,7 @@ public class StockList {
         this.CompanyName = new SimpleStringProperty(Cname);
         this.OldPrice = new SimpleStringProperty( Oprice);
         this.NewPrice = new SimpleStringProperty(Nprice);
-        System.out.println("New Data!!" + this.StockID);
+        
         
     }
 

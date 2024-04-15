@@ -23,7 +23,7 @@
             <TableColumn fx:id="newPriceTableView" minWidth="0.0" prefWidth="116.0" text="New Price" />
         </columns>
       </TableView>
-      <Button fx:id="backToDashboard" layoutX="397.0" layoutY="355.0" mnemonicParsing="false" text="Back to Stock Broker Dashboard" />
+      <Button layoutX="397.0" layoutY="355.0" mnemonicParsing="false" onAction="#backToDashboard" text="Back to Stock Broker Dashboard" />
       <Label fx:id="notificationLabel" layoutX="64.0" layoutY="298.0" text="Notification Text" />
    </children>
 </AnchorPane>

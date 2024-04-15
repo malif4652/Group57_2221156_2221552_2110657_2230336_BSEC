@@ -17,11 +17,13 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Scanner;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 
 public class AddStockSceneController implements Initializable {
@@ -154,6 +156,14 @@ public class AddStockSceneController implements Initializable {
 
         }
 
+    }
+
+    @FXML
+    private void backToDashboard(ActionEvent event) throws IOException {
+        Parent scene2Parent = FXMLLoader.load(getClass().getResource("StockBrokerDashboardScene.fxml"));
+        Scene scene2 = new Scene(scene2Parent);
+        //stage.setScene(scene2);
+        Stage s2 = new Stage(); s2.setScene(scene2);  s2.show();
     }
     
     
