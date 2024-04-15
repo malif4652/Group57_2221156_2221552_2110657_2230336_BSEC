@@ -32,7 +32,7 @@ public class ItTeamFxmlSceneController implements Initializable {
     @FXML
     private TableView<Employee> itEmployeeTableView;
     @FXML
-    private TableColumn<?, ?> departmentTableColumn;
+    private TableColumn<Employee, String> departmentTableColumn;
     @FXML
     private ComboBox<String> departmetComboBox;
 
