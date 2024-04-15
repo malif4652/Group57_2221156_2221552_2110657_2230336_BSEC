@@ -43,5 +43,61 @@ public class SurveillanceOfficerHomeController implements Initializable {
 
     public SurveillanceOfficerHomeController() {
     }
+
+    public TableView<?> getTable() {
+        return table;
+    }
+
+    public void setTable(TableView<?> table) {
+        this.table = table;
+    }
+
+    public TableColumn<?, ?> getStockID() {
+        return stockID;
+    }
+
+    public void setStockID(TableColumn<?, ?> stockID) {
+        this.stockID = stockID;
+    }
+
+    public TableColumn<?, ?> getStockPrice() {
+        return stockPrice;
+    }
+
+    public void setStockPrice(TableColumn<?, ?> stockPrice) {
+        this.stockPrice = stockPrice;
+    }
+
+    public TableColumn<?, ?> getTotalBought() {
+        return totalBought;
+    }
+
+    public void setTotalBought(TableColumn<?, ?> totalBought) {
+        this.totalBought = totalBought;
+    }
+
+    public TableColumn<?, ?> getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(TableColumn<?, ?> totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
+    public TableColumn<?, ?> getTotalSold() {
+        return totalSold;
+    }
+
+    public void setTotalSold(TableColumn<?, ?> totalSold) {
+        this.totalSold = totalSold;
+    }
+
+    public TableColumn<?, ?> getChangesInprice() {
+        return changesInprice;
+    }
+
+    public void setChangesInprice(TableColumn<?, ?> changesInprice) {
+        this.changesInprice = changesInprice;
+    }
     
 }
