@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="793.0" prefWidth="891.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="comissionerpkgFairooz.RegulatoryGuidanceFxmlSceneController">
+   <children>
+      <Label layoutX="4.0" layoutY="-27.0" prefHeight="821.0" prefWidth="970.0" text="Data Security Standards: Ensure compliance with BSEC's regulations regarding data security, including encryption protocols, access controls, and data storage guidelines to protect sensitive financial information.Cybersecurity Protocols: Implement BSEC-recommended cybersecurity protocols to safeguard against cyber threats such as hacking, malware, and phishing attacks. Regular security audits and penetration testing should also be conducted.Compliance Reporting: Provide mechanisms for generating reports that demonstrate compliance with BSEC regulations, including documentation of IT policies, procedures, and controls.Disaster Recovery and Business Continuity Planning: Develop and maintain robust disaster recovery and business continuity plans to ensure uninterrupted operations in the event of IT system failures, natural disasters, or other emergencies.Regulatory Reporting Systems: Implement systems and processes to facilitate timely and accurate reporting to BSEC, including transaction reporting, regulatory filings, and compliance certifications.IT Governance Framework: Establish an IT governance framework that aligns IT strategies with business objectives and ensures accountability, transparency, and effective decision-making within the organization.Vendor Management Policies: Implement policies and procedures for evaluating, selecting, and monitoring third-party vendors to ensure they comply with BSEC regulations and adhere to industry best practices for IT security and data protection.Training and Awareness Programs: Conduct regular training and awareness programs for employees to educate them about BSEC regulations, cybersecurity best practices, and their roles and responsibilities in maintaining regulatory compliance.Incident Response Procedures: Develop and maintain detailed incident response procedures to promptly address and mitigate any IT security incidents or breaches in accordance with BSEC requirements.Auditing and Monitoring Mechanisms: Implement auditing and monitoring mechanisms to track and monitor IT activities, detect potential compliance violations or security breaches, and ensure timely remediation actions are taken.Cloud Computing Guidelines: If utilizing cloud computing services, ensure compliance with BSEC guidelines for cloud security, data privacy, and outsourcing arrangements.Regulatory Updates and Notifications: Stay informed about changes to BSEC regulations and guidelines related to information technology and promptly update IT policies, procedures, and systems to maintain compliance." wrapText="true" />
+      <Label layoutX="248.0" layoutY="75.0" prefHeight="68.0" prefWidth="483.0" text="Regulatory Guidance">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
