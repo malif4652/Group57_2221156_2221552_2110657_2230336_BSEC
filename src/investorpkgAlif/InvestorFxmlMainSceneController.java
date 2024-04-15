@@ -39,7 +39,7 @@ public class InvestorFxmlMainSceneController implements Initializable {
     }    
 
     @FXML
-    private void managePortfolioButtonOnClick(ActionEvent event) {
+    private void managePortfolioButtonOnClick(ActionEvent event){
     }
 
     @FXML
