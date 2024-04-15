@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investorpkgAlif.InvestorFxmlMainSceneController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="600.0" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investorpkgAlif.InvestorFxmlMainSceneController">
    <top>
       <Label prefHeight="62.0" prefWidth="226.0" text="Investor Dashboard" BorderPane.alignment="CENTER">
          <font>
@@ -68,11 +68,6 @@
                </font>
             </Button>
             <Button layoutX="313.0" layoutY="419.0" mnemonicParsing="false" onAction="#complaintBoxButtonOnClick" prefHeight="33.0" prefWidth="135.0" style="-fx-background-color: black; -fx-border-radius: 0;" text="Complaint Box" textFill="WHITE">
-               <font>
-                  <Font name="Arial" size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="468.0" layoutY="419.0" mnemonicParsing="false" onAction="#backToDashboardButtonOnClick" prefHeight="33.0" prefWidth="123.0" style="-fx-border-radius: 0; -fx-background-color: transparent;" text="Back to Dashboard">
                <font>
                   <Font name="Arial" size="12.0" />
                </font>

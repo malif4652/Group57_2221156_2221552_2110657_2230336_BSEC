@@ -13,7 +13,7 @@
    <center>
       <AnchorPane prefHeight="318.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView layoutX="14.0" layoutY="35.0" prefHeight="241.0" prefWidth="571.0">
+            <TableView layoutX="14.0" layoutY="35.0" prefHeight="241.0" prefWidth="571.0" stylesheets="@style/style.css">
               <columns>
                 <TableColumn prefWidth="107.99996948242188" text="Stock ID" />
                 <TableColumn prefWidth="142.66665649414062" text="Stock Prices" />
