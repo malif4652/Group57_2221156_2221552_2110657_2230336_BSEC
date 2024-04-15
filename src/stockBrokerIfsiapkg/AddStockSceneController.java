@@ -5,6 +5,7 @@
 package stockBrokerIfsiapkg;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -17,7 +18,6 @@ import javafx.scene.control.TextField;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -35,15 +35,15 @@ public class AddStockSceneController implements Initializable {
     @FXML
     private TextField newPriceTextField;
     @FXML
-    private TableView<String> mainTableView;
+    private TableView<StockList> mainTableView;
     @FXML
-    private TableColumn<StockList,Integer > stockIDTableView;
+    private TableColumn<StockList, String > stockIDTableView;
     @FXML
     private TableColumn<StockList, String> companyNameTableView;
     @FXML
-    private TableColumn<StockList, Double> oldPriceTableView;
+    private TableColumn<StockList, String> oldPriceTableView;
     @FXML
-    private TableColumn<StockList, Double> newPriceTableView;
+    private TableColumn<StockList, String> newPriceTableView;
     @FXML
     private Label notificationLabel;
 
@@ -103,21 +103,26 @@ public class AddStockSceneController implements Initializable {
 
     @FXML
     private void LoadListOfStocksOnClick() {
-        stockIDTableView.setCellValueFactory(new PropertyValueFactory<StockList,Integer>("StockId"));
+        /*stockIDTableView.setCellValueFactory(new PropertyValueFactory<StockList,String>("StockId"));
         companyNameTableView.setCellValueFactory(new PropertyValueFactory<StockList,String>("CompanyName"));
-        oldPriceTableView.setCellValueFactory(new PropertyValueFactory<StockList,Double>("OldPrice"));
-        newPriceTableView.setCellValueFactory(new PropertyValueFactory<StockList,Double>("NewPrice"));
-        //mainTableView.setItems(getStockList());
+        oldPriceTableView.setCellValueFactory(new PropertyValueFactory<StockList,String>("OldPrice"));
+        newPriceTableView.setCellValueFactory(new PropertyValueFactory<StockList,String>("NewPrice"));
+        mainTableView.setItems(getListData());*/
+        stockIDTableView.setCellValueFactory(cellData -> cellData.getValue().getStockID());
+        companyNameTableView.setCellValueFactory(cellData -> cellData.getValue().getCompanyName());
+        oldPriceTableView.setCellValueFactory(cellData -> cellData.getValue().getOldPrice());
+        newPriceTableView.setCellValueFactory(cellData -> cellData.getValue().getNewPrice());
+        mainTableView.setItems(getListData());
         
     
         
         
         
     }
-    public ArrayList<String> getListData(){
+    public ObservableList<StockList> getListData(){
         ObservableList<StockList> obList = FXCollections.observableArrayList();
-         ArrayList<String> LeaveAPParray = new ArrayList<String>();
-
+         
+        System.out.println("In getListData!!");
         File f = null;
         Scanner sc;
         String s1,s2,s3,s4,addStr;
@@ -126,28 +131,31 @@ public class AddStockSceneController implements Initializable {
         int count =1;
         try {
             f = new File("StockList.txt");
+            System.out.println("Reading StockList.txt!!");
             sc = new Scanner(f);
             if (f.exists()) {
 
                 while (sc.hasNextLine()) {
                     str = sc.nextLine();
+                    System.out.println("Reading StockList.txt!!"+str);
                     tokens = str.split("&&");
                     s1=tokens[0];
                     s2=tokens[1];
                     s3=tokens[2];
-                    s4=tokens[4];
-                    
+                    s4=tokens[3];
+            obList.add(new StockList(s1, s2, s3, s4));        
                 }
                 
             }
         } catch (FileNotFoundException e) {
-            System.out.println("Error in getTableViewInfo!!File reading failed!!");
+            System.out.println("Error in getListdata!!File reading failed!!");
         }finally {
-            System.out.println(" getTableViewInfo!!File reading done!!");
-            return LeaveAPParray;
+            return obList ;
 
         }
 
     }
+    
+    
     
 }

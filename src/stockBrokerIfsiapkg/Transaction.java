@@ -8,14 +8,14 @@ public class Transaction {
     private String type; // Buy or Sell
     private int quantity;
     private double price;
-    private Date timestamp;
+    
 
     public Transaction(String symbol, String type, int quantity, double price, Date timestamp) {
         this.symbol = symbol;
         this.type = type;
         this.quantity = quantity;
         this.price = price;
-        this.timestamp = timestamp;
+        
     }
 
     // Getters and setters

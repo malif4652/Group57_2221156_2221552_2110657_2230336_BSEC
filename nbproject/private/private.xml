@@ -11,18 +11,14 @@
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReportSceneController.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/mainpkg/MainAppClass.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/AddStockScene.fxml</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/CustomerSegment.fxml</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Stock.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/AddStockSceneController.java</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/CustomerSegmentController.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReportScene.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Order.java</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/AddNewStock.fxml</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystReport.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/mainpkg/MainAppFxmlMainSceneController.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/RiskAnalysisReport.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/Transaction.java</file>
             <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/OrderStockSceneController.java</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/AddNewStockController.java</file>
-            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/marketAnalystIfsiapkg/MarketAnalystDashboardSceneController.java</file>
+            <file>file:/D:/NetBeansProjects/Group57_2221156_2221552_2110657_2230336_BSEC/src/stockBrokerIfsiapkg/StockList.java</file>
         </group>
     </open-files>
 </project-private>

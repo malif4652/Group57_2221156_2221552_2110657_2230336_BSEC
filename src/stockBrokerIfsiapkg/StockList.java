@@ -9,12 +9,12 @@ public class StockList {
 
     SimpleStringProperty StockID, CompanyName, OldPrice,NewPrice;
 
-    public StockList(String AppiD, String EmpId, String day, String StDate) {
-        this.StockID = new SimpleStringProperty(StockID);
-        this.CompanyName = new SimpleStringProperty(Name);
-        this.OldPrice = new SimpleStringProperty(Price1);
-        this.NewPrice = new SimpleStringProperty(Price2);
-
+    public StockList(String Sid, String Cname, String Oprice, String Nprice) {
+        this.StockID = new SimpleStringProperty(Sid);
+        this.CompanyName = new SimpleStringProperty(Cname);
+        this.OldPrice = new SimpleStringProperty( Oprice);
+        this.NewPrice = new SimpleStringProperty(Nprice);
+        System.out.println("New Data!!" + this.StockID);
         
     }
 
@@ -69,5 +69,7 @@ public class StockList {
     public SimpleStringProperty NewPrice() {
         return NewPrice;
     }
+    
+}
 
     
