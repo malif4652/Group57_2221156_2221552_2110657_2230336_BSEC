@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="537.0" prefWidth="732.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="surveillanceofficerpkgRaduan.DataVisualizationController">
+   <children>
+      <TextField layoutX="233.0" layoutY="48.0" prefHeight="25.0" prefWidth="134.0" scaleX="3.0" scaleY="3.0" text="Market Data Visualiser" />
+      <BarChart layoutX="33.0" layoutY="117.0" prefHeight="321.0" prefWidth="346.0" title="Bar chart of market data">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <PieChart layoutX="486.0" layoutY="108.0" prefHeight="364.0" prefWidth="150.0" title="pie chart of investor type" />
+   </children>
+</AnchorPane>

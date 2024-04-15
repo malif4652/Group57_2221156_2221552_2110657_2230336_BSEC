@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="441.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="internationalAffairsOfficerpkgRaduan.RegulatoryUpdatesController">
+   <children>
+      <TextField layoutX="226.0" layoutY="35.0" scaleX="2.0" scaleY="2.0" text="Updates on Regulatory" />
+      <TextArea layoutX="52.0" layoutY="131.0" prefHeight="200.0" prefWidth="200.0" text="Show The Latest International&#10;Regulation&#10;&#10;1.&#10;&#10;2.&#10;&#10;3.&#10;&#10;n.&#10;" />
+      <Button layoutX="52.0" layoutY="98.0" mnemonicParsing="false" text="Regulations" />
+      <Button layoutX="320.0" layoutY="98.0" mnemonicParsing="false" text="Show policy changes" />
+      <TextArea layoutX="320.0" layoutY="131.0" prefHeight="200.0" prefWidth="200.0" text="Show The Latest Policy Changes&#10;&#10;1.&#10;&#10;2.&#10;&#10;3.&#10;&#10;n.&#10;" />
+   </children>
+</AnchorPane>

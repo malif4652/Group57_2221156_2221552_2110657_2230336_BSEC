@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="internationalAffairsOfficerpkgRaduan.OfficersHomePageController">
+   <children>
+      <TextField layoutX="226.0" layoutY="33.0" prefHeight="25.0" prefWidth="159.0" scaleX="2.0" scaleY="2.0" text="International Affairs Officer" />
+      <Button layoutX="55.0" layoutY="92.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="167.0" text="Regulatory Updates" />
+      <Button layoutX="55.0" layoutY="159.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="167.0" text="Cross-Border Collaboration" />
+      <Button layoutX="55.0" layoutY="236.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="167.0" text="Market Access Information" />
+      <Button layoutX="55.0" layoutY="317.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="167.0" text="Regulatory Comparisons" />
+      <Button layoutX="318.0" layoutY="92.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Diplomatic Engagement Planning" />
+      <Button layoutX="318.0" layoutY="236.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Crisis Management" />
+      <Button layoutX="318.0" layoutY="159.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="International Policy Analysis " />
+      <Button layoutX="318.0" layoutY="317.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="Cross-Border Market Surveillance" />
+   </children>
+</AnchorPane>

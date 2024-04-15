@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="surveillanceofficerpkgRaduan.OfiicersCollaborationController">
+   <children>
+      <TextField layoutX="226.0" layoutY="37.0" prefHeight="27.0" prefWidth="132.0" scaleX="2.0" scaleY="2.0" style="-fx-border-color: black;" text="Officers Collaboration" />
+      <Button layoutX="39.0" layoutY="105.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="167.0" text="Check Shared Information" />
+      <TextArea layoutX="22.0" layoutY="150.0" prefHeight="104.0" prefWidth="200.0" text="Show All information here &#10;After the button was clicked&#10;" />
+      <TextField layoutX="334.0" layoutY="105.0" prefHeight="114.0" prefWidth="211.0" text="write what u want to share" />
+      <Button layoutX="347.0" layoutY="229.0" mnemonicParsing="false" text="Add it to shared information list" />
+      <TextField layoutX="152.0" layoutY="272.0" prefHeight="37.0" prefWidth="296.0" text="Chat box for officers " />
+      <Button layoutX="216.0" layoutY="329.0" mnemonicParsing="false" text="Send your text to chatbox" />
+   </children>
+</AnchorPane>

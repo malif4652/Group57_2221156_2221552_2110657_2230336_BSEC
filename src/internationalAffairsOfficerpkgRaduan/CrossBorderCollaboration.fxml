@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="internationalAffairsOfficerpkgRaduan.CrossBorderCollaborationController">
+   <children>
+      <TextField layoutX="221.0" layoutY="27.0" prefHeight="25.0" prefWidth="159.0" scaleX="2.0" scaleY="2.0" text="Cross Border Colleboration" />
+      <Button layoutX="39.0" layoutY="87.0" mnemonicParsing="false" text=" international laws and compliance" />
+      <TextArea layoutX="39.0" layoutY="136.0" prefHeight="200.0" prefWidth="200.0" text="Show All the Law category here &#10;select prefered category to see the laws&#10;" />
+      <Button layoutX="333.0" layoutY="136.0" mnemonicParsing="false" text="Translet" />
+      <TextField layoutX="275.0" layoutY="87.0" prefHeight="25.0" prefWidth="173.0" text="Enter Text U need to translet" />
+      <TextArea layoutX="276.0" layoutY="178.0" prefHeight="72.0" prefWidth="173.0" text="Type Your Message Here" />
+      <Button layoutX="316.0" layoutY="266.0" mnemonicParsing="false" text="Send message" />
+   </children>
+</AnchorPane>
