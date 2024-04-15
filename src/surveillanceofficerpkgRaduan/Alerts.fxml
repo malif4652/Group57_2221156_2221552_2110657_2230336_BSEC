@@ -5,14 +5,13 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="532.0" prefWidth="674.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="surveillanceofficerpkgRaduan.AlertsController">
+<AnchorPane id="AnchorPane" prefHeight="532.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="surveillanceofficerpkgRaduan.AlertsController">
    <children>
-      <TextArea layoutX="82.0" layoutY="133.0" prefHeight="118.0" prefWidth="229.0" text="No unusual investment detected&#10;&#10;No unusual stock clearence detected&#10;&#10;No unusual movement detected&#10;&#10;" />
-      <Button layoutX="141.0" layoutY="330.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="111.0" scaleX="2.0" scaleY="2.0" text="Go To HomePage" />
-      <Button layoutX="382.0" layoutY="133.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" text="See Recent Buyers" />
-      <Button layoutX="382.0" layoutY="242.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" text="See Recent Sellers" />
-      <Button layoutX="382.0" layoutY="341.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" text="See Recent Withdraws" />
+      <TextArea fx:id="notificationList" layoutX="82.0" layoutY="133.0" prefHeight="118.0" prefWidth="229.0" text="No unusual investment detected&#10;&#10;No unusual stock clearence detected&#10;&#10;No unusual movement detected&#10;&#10;" />
+      <Button fx:id="homePage" layoutX="141.0" layoutY="330.0" mnemonicParsing="false" onAction="#goToHomePageOnClick" prefHeight="39.0" prefWidth="111.0" scaleX="2.0" scaleY="2.0" text="Go To HomePage" />
+      <Button fx:id="recentBuyers" layoutX="382.0" layoutY="133.0" mnemonicParsing="false" onAction="#recentBuyersOnClick" prefHeight="48.0" prefWidth="145.0" text="See Recent Buyers" />
+      <Button fx:id="recentSellers" layoutX="382.0" layoutY="242.0" mnemonicParsing="false" onAction="#recentSellersOnClick" prefHeight="48.0" prefWidth="145.0" text="See Recent Sellers" />
+      <Button fx:id="recentWithdraws" layoutX="382.0" layoutY="341.0" mnemonicParsing="false" onAction="#recentWithdrawsOnClick" prefHeight="48.0" prefWidth="145.0" text="See Recent Withdraws" />
       <TextField layoutX="314.0" layoutY="55.0" prefHeight="25.0" prefWidth="46.0" scaleX="3.0" scaleY="3.0" text="Alerts " />
    </children>
 </AnchorPane>
